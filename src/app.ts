@@ -10,7 +10,7 @@ import routes from './app/routes';
 import cookieParser from 'cookie-parser';
 import { globalErrorHandler } from './app/middleware/globalErrorHandler';
 
-const app: Application = express();
+const app: Applicatio = express();
 
 const corsOptions = {
   origin: true,
